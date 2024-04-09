@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.hesab{
+    margin: 10px;
+}
+.number{
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.btn{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: darkblue;
+    color: beige;
+}
+
+
+.manats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    gap: 170px;
+}
+
+.manat{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.img{
+    height: 220px;
+    width: 300px;
+    display: flex;
+    object-fit: contain;
+    position: absolute;
+}
+.say{
+    position: absolute;
+    font-size: 30px;
+    top: 120px;
+    right: 20px;
+}
+
+
+

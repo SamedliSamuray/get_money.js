@@ -46,7 +46,10 @@
     position: absolute;
     font-size: 30px;
     top: 120px;
-    right: 20px;
+    right: 300px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    
 }
 
 

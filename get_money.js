@@ -23,11 +23,11 @@ btn.addEventListener('click',()=>{
         let eded=(Math.trunc(number/a[i]));
         let say=document.createElement('p');
             say.classList.add('say');
-            eded>5?say.textContent=`x${eded}`:null;
+            eded>5?say.textContent=`x${(eded-5)}`:null;
 
         for(let j=1;j<=eded;j++){
             
-
+            eded>5?eded=5:null;
             let img=document.createElement('img');
             img.classList.add('img')
             img.src=`${a[i]}.jpg`;

@@ -9,7 +9,7 @@ btn.addEventListener('click',()=>{
 
     manats.innerHTML='';  
     
-    number=numb.value;
+   let number=numb.value;
 
     
     let a=[500,200,100,50,20,10,5,1];
